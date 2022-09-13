@@ -25,7 +25,7 @@ public class test{
         driver.findElement(By.xpath("//a[@title='Opportunities']//parent::one-app-nav-bar-item-root")).click();
         driver.findElement(By.xpath("//div[text()='New']")).click();
         WebElement name1 = driver.findElement(By.xpath("//input[@name='Name']"));
-        name1.sendKeys("Salesforce Automation by Harish");
+        name1.sendKeys("Salesforce Automation by Richard");
         String namepr = name1.getAttribute("value");
         System.out.println(namepr);
         driver.findElement(By.xpath("//input[@name='CloseDate']")).click();
